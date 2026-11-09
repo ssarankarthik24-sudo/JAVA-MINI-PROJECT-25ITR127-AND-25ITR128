@@ -1,0 +1,10 @@
+incident_id,flight_id,sep_violations,radio_delay_sec,descent_score,airspace_safety_factor,overall_safety_score,safety_band,clearance_decision,collision_alert,generated_at
+1,1,0,1.20,88.50,1.5111,46.14,EMERGENCY_VECTOR,"Immediate Emergency Eviction",false,2026-11-09 18:14:22
+2,2,1,2.50,75.00,3.0133,55.06,EMERGENCY_VECTOR,"Immediate Emergency Eviction",false,2026-11-09 18:14:22
+3,3,2,0.50,65.00,6.4321,33.36,EMERGENCY_VECTOR,"Immediate Emergency Eviction",false,2026-11-09 18:14:22
+4,4,0,0.80,92.00,20.2987,57.17,EMERGENCY_VECTOR,"Immediate Emergency Eviction",false,2026-11-09 18:14:22
+5,5,1,3.00,70.00,98.0904,90.30,OPTIMAL_CORRIDOR,"Unrestricted Flight Path",false,2026-11-09 18:14:22
+6,6,0,1.00,95.00,100.0000,96.36,OPTIMAL_CORRIDOR,"Unrestricted Flight Path",false,2026-11-09 18:14:22
+7,7,3,4.50,55.00,100.0000,88.92,STANDARD_SEPARATION,"Normal Sector Clearance",false,2026-11-09 18:14:22
+8,8,4,0.20,40.00,100.0000,89.50,STANDARD_SEPARATION,"Normal Sector Clearance",false,2026-11-09 18:14:22
+9,9,0,0.50,97.50,100.0000,98.04,OPTIMAL_CORRIDOR,"Unrestricted Flight Path",false,2026-11-09 18:14:22

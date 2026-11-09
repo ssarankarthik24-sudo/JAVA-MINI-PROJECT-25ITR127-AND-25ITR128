@@ -1,0 +1,51 @@
+=== ATC Parallel Vector Calculation Log — 2026-11-09 18:33:07 ===
+
+Thread               AircraftA  AircraftB  H_Dist(NM)   V_Dist(ft)   CRI            ASF%     Score    SafetyBand               Clearance                           
+--------------------------------------------------------------------------------------------------------------------------------------------
+RadarWorker-1        AAL101     FDX202     1.2134       7300         112.895991     24.27    57.52    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-2        AAL101     DRN303     0.1604       33700        184.984112     3.21     46.99    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-3        AAL101     UAL404     0.0756       1700         7785.376850    1.51     46.14    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-4        AAL101     UPS505     1.0635       5000         188.057244     21.27    56.02    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-5        AAL101     SWA606     19.6177      1900         26.828615      100.00   95.39    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-6        AAL101     DHL707     12.0240      10100        8.234337       100.00   95.39    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-7        AAL101     DRN808     8.3174       34050        3.530995       100.00   95.39    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-8        AAL101     BAW909     10.2596      3700         26.343244      100.00   95.39    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-2        AAL101     AFR010     4.2697       9000         26.023034      85.39    88.08    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-1        FDX202     DRN303     1.0532       26400        35.965062      21.06    62.28    VECTORING_ADJUSTMENT     Altitude/Course Correction Ordered  
+RadarWorker-3        FDX202     UAL404     1.1654       9000         95.340661      23.31    63.18    VECTORING_ADJUSTMENT     Altitude/Course Correction Ordered  
+RadarWorker-4        FDX202     UPS505     0.1507       2300         2885.751510    3.01     55.06    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-6        FDX202     SWA606     19.0415      5400         9.725342       100.00   93.86    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-5        FDX202     DHL707     10.8349      2800         32.962268      100.00   93.86    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-7        FDX202     DRN808     9.5284       26750        3.923361       100.00   93.86    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-8        FDX202     BAW909     9.2013       11000        9.880019       100.00   93.86    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-1        FDX202     AFR010     4.9936       1700         117.796985     99.87    93.81    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-2        DRN303     UAL404     0.1286       35400        219.589545     6.43     33.36    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-3        DRN303     UPS505     0.9035       28700        38.565400      45.17    56.60    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-4        DRN303     SWA606     19.5454      31800        1.608901       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-6        DRN303     DHL707     11.8683      23600        3.570256       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-5        DRN303     DRN808     8.4778       350          337.016459     100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-7        DRN303     BAW909     10.1140      37400        2.643650       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-8        DRN303     AFR010     4.3460       24700        9.315739       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-2        UAL404     UPS505     1.0149       6700         147.057588     20.30    57.17    EMERGENCY_VECTOR         Immediate Emergency Eviction        
+RadarWorker-3        UAL404     SWA606     19.5435      3600         14.213300      100.00   97.02    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-1        UAL404     DHL707     11.9648      11800        7.082905       100.00   97.02    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-4        UAL404     DRN808     8.3630       35750        3.344734       100.00   97.02    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-6        UAL404     BAW909     10.2426      2000         48.815961      100.00   97.02    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-5        UAL404     AFR010     4.3440       10700        21.514053      86.88    90.46    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-7        UPS505     SWA606     19.0967      3100         16.891965      100.00   91.07    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-8        UPS505     DHL707     10.9786      5100         17.860019      100.00   91.07    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-2        UPS505     DRN808     9.3778       29050        3.670736       100.00   91.07    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-4        UPS505     BAW909     9.3374       8700         12.309905      100.00   91.07    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-3        UPS505     AFR010     4.9045       4000         50.973372      98.09    90.30    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-1        SWA606     DHL707     14.8702      8200         8.201034       100.00   96.36    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-6        SWA606     DRN808     24.4425      32150        1.272547       100.00   96.36    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-5        SWA606     BAW909     21.7650      5600         8.204535       100.00   96.36    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-8        SWA606     AFR010     23.8873      7100         5.896224       100.00   96.36    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+RadarWorker-7        DHL707     DRN808     20.1790      23950        2.069168       100.00   88.92    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-2        DHL707     BAW909     7.5283       13800        9.625562       100.00   88.92    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-4        DHL707     AFR010     15.1813      1100         59.882299      100.00   88.92    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-3        DRN808     BAW909     18.1843      37750        1.456753       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-1        DRN808     AFR010     7.4657       25050        5.347171       100.00   89.50    STANDARD_SEPARATION      Normal Sector Clearance             
+RadarWorker-6        BAW909     AFR010     11.3001      12700        6.968069       100.00   98.04    OPTIMAL_CORRIDOR         Unrestricted Flight Path            
+
+=== Total pairs evaluated: 45 ===
